@@ -89,38 +89,31 @@ body {
 .auth-nav .item + .item {
   margin-left: 50px;
 }
-.email.item {
+/* .email.item {
   width: 161px;
   height: 16px;
-  margin-right: 10px;
-}
-.auth-nav .email .link {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-}
-.tel.item {
+} */
+
+/* .tel.item {
   width: 142px;
   height: 16px;
-}
-.auth-nav .tel .link {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-}
+} */
+
 .auth-nav .link {
+  display: flex;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  width: 100%;
+  height: 100%;
 }
-.item.link.icon {
+/* .item.link.icon {
   display: flex;
-}
+} */
 .icon {
   fill: currentColor;
 }
