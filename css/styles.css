@@ -101,6 +101,7 @@ body {
 
 .auth-nav .link {
   display: flex;
+  align-items: center;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -108,8 +109,8 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
 }
 /* .item.link.icon {
   display: flex;
@@ -117,7 +118,10 @@ body {
 .icon {
   fill: currentColor;
 }
-
+.envelope,
+.smartphone {
+  margin-right: 10px;
+}
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: var(--accent-color);
